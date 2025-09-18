@@ -1,0 +1,4930 @@
+{
+  "version": {
+    "_version": 13.03,
+    "autoSaveFromRestore": false,
+    "canvasTemplates": [],
+    "components": [],
+    "creatorID": 1786625,
+    "manualSave": false,
+    "model": {
+      "modelID": "68ca5095d91755bb870bac37"
+    },
+    "name": "Initial Version",
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "68ca4f0c62ac1e625bd664d3",
+          "name": "Suivi de commande",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Je veux suivre ma commande",
+              "slots": []
+            },
+            {
+              "text": "Pouvez-vous me donner des précisions sur ma commande?",
+              "slots": []
+            },
+            {
+              "text": "Comment faire pour suivre ma commande sur votre site?",
+              "slots": []
+            },
+            {
+              "text": "Où est-ce que je peux suivre ma commande?",
+              "slots": []
+            },
+            {
+              "text": "Puis-je obtenir des mises à jour sur ma commande?",
+              "slots": []
+            },
+            {
+              "text": "Je veux savoir quand ma commande arrivera",
+              "slots": []
+            },
+            {
+              "text": "Comment suivre ma commande avec mon numéro de suivi?",
+              "slots": []
+            },
+            {
+              "text": "Où puis-je trouver des détails sur ma commande en cours?",
+              "slots": []
+            },
+            {
+              "text": "Est-ce que ma commande a été expédiée?",
+              "slots": []
+            },
+            {
+              "text": "Je veux connaître le suivi de ma commande",
+              "slots": []
+            },
+            {
+              "text": "Pouvez-vous m'aider à suivre ma commande?",
+              "slots": []
+            },
+            {
+              "text": "Comment suivre ma commande sur votre site?",
+              "slots": []
+            },
+            {
+              "text": "Où puis-je suivre ma commande?",
+              "slots": []
+            },
+            {
+              "text": "Je veux vérifier l'état de ma commande",
+              "slots": []
+            },
+            {
+              "text": "Avez-vous un moyen de suivre ma commande?",
+              "slots": []
+            },
+            {
+              "text": "Pouvez-vous me donner des informations sur ma commande?",
+              "slots": []
+            },
+            {
+              "text": "Je voudrais savoir où en est ma commande",
+              "slots": []
+            },
+            {
+              "text": "Est-ce possible de suivre ma commande en ligne?",
+              "slots": []
+            },
+            {
+              "text": "Je souhaite connaître l'avancement de ma commande s'il vous plaît",
+              "slots": []
+            },
+            {
+              "text": "Quand est-ce que ma commande sera livrée?",
+              "slots": []
+            },
+            {
+              "text": "Comment puis-je vérifier l'état de ma commande?",
+              "slots": []
+            }
+          ],
+          "noteID": "0e1m80vp7",
+          "description": "Pour suivre les commandes"
+        },
+        {
+          "key": "68ca4f8362ac1e625bd66511",
+          "name": "Donner un avis",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Donner mon avis sur une commande",
+              "slots": []
+            },
+            {
+              "text": "Laisser mes remarques",
+              "slots": []
+            },
+            {
+              "text": "Partager mon témoignage",
+              "slots": []
+            },
+            {
+              "text": "Émettre mon point de vue",
+              "slots": []
+            },
+            {
+              "text": "Exprimer mes impressions",
+              "slots": []
+            },
+            {
+              "text": "Rapporter mon expérience",
+              "slots": []
+            },
+            {
+              "text": "Fournir mes impressions",
+              "slots": []
+            },
+            {
+              "text": "Donner mon sentiment",
+              "slots": []
+            },
+            {
+              "text": "Publier mon évaluation",
+              "slots": []
+            },
+            {
+              "text": "Donner mon retour d'expérience",
+              "slots": []
+            },
+            {
+              "text": "Exposer mon avis personnel",
+              "slots": []
+            },
+            {
+              "text": "Énoncer mon jugement",
+              "slots": []
+            },
+            {
+              "text": "Dévoiler mon ressenti",
+              "slots": []
+            },
+            {
+              "text": "Livrer mes impressions",
+              "slots": []
+            },
+            {
+              "text": "Émettre une appréciation",
+              "slots": []
+            },
+            {
+              "text": "Dire ce que je pense",
+              "slots": []
+            },
+            {
+              "text": "Fournir mes commentaires",
+              "slots": []
+            },
+            {
+              "text": "Partager mon point de vue",
+              "slots": []
+            },
+            {
+              "text": "Exprimer ce que je pense",
+              "slots": []
+            },
+            {
+              "text": "Faire part de mon opinion",
+              "slots": []
+            },
+            {
+              "text": "Donner mon avis sur un produit",
+              "slots": []
+            }
+          ],
+          "noteID": "0e1m90vtf",
+          "description": "Donner des avis sur une commande"
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "globalNoMatch": {
+          "type": "static",
+          "prompt": {
+            "content": [
+              {
+                "children": [
+                  {
+                    "text": "Sorry, I didn’t get that. Please try again."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "messageDelay": {
+          "durationMilliseconds": 500
+        },
+        "defaultVoice": "elevenlabs:eleven_turbo_v2_5:ZF6FPAbjXT4488VcRRnw",
+        "deepgramASR": {
+          "silenceWaitMS": 10,
+          "punctuationWaitMS": 200,
+          "partialWaitMS": 1000,
+          "interruptionWaitWords": 1,
+          "audioCue": null
+        },
+        "globalNoReply": {
+          "type": "static",
+          "delay": null,
+          "prompt": {
+            "content": [
+              {
+                "children": [
+                  {
+                    "text": "Are you still there?"
+                  }
+                ]
+              }
+            ]
+          },
+          "enabled": false
+        }
+      },
+      "publishing": {
+        "avatar": "https://cdn.voiceflow.com/assets/logo.png",
+        "color": "#397DFF",
+        "description": "Hi, how can I help you today?",
+        "feedback": false,
+        "image": "https://cdn.voiceflow.com/assets/logo.png",
+        "persistence": "localStorage",
+        "position": "right",
+        "spacing": {
+          "side": 24,
+          "bottom": 24
+        },
+        "title": "Your AI agent",
+        "watermark": true,
+        "audioInterface": true
+      },
+      "platform": "webchat"
+    },
+    "programResources": {
+      "agents": {
+        "68ca502362ac1e625bd66559": {
+          "name": "Réponses à d'autres questions",
+          "settings": {
+            "model": "gpt-4-turbo",
+            "maxTokens": 2560,
+            "temperature": 0.3,
+            "reasoningEffort": null
+          },
+          "cardTool": null,
+          "apiTools": [],
+          "pathTools": [],
+          "buttonTool": null,
+          "description": "",
+          "carouselTool": null,
+          "instructions": "Réponds à la quesion du client\n{last_utterance} ",
+          "functionTools": [],
+          "webSearchTool": null,
+          "integrationTools": [],
+          "mcpIntegrationTools": [],
+          "knowledgeBaseTool": {
+            "enabled": true,
+            "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+          }
+        },
+        "68cb48a82e910ad067376ad6": {
+          "name": "Gnerateur d'avis",
+          "settings": {
+            "model": "gpt-4-turbo",
+            "maxTokens": 4096,
+            "temperature": 0.3,
+            "reasoningEffort": null
+          },
+          "cardTool": {
+            "enabled": false,
+            "description": "Summarizes the assistant's response in a visual card with a title, image, description, and optional action buttons."
+          },
+          "apiTools": [],
+          "pathTools": [
+            {
+              "id": "68cbf1cc2e910ad067379114",
+              "name": "continue",
+              "variables": [],
+              "description": "Quitte ce block après ta réponse"
+            }
+          ],
+          "buttonTool": {
+            "enabled": false,
+            "description": "Displays a UI picker when the user needs to select one option from a predefined list (up to 5 options)."
+          },
+          "description": "",
+          "carouselTool": {
+            "enabled": false,
+            "description": "Displays a carousel of up to 10 cards, each containing a title, description, image, and optional action buttons."
+          },
+          "instructions": "Les informations suivantes concernes les avis d'un client sur nos services. Essaie de reformuler son \navis de manière pertinente en 2 ou  3 phrases. Voici ces informations:{last_utterance}\nAfiiche ton résultat et passer au block suivant spt.",
+          "functionTools": [],
+          "webSearchTool": null,
+          "integrationTools": [],
+          "mcpIntegrationTools": [],
+          "knowledgeBaseTool": {
+            "enabled": false,
+            "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+          }
+        }
+      },
+      "prompts": {},
+      "apiTools": {},
+      "messages": {
+        "68ca4eb362ac1e625bd664be": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "En quoi pourrais-je vous aider aujourd'hui ?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68ca50a362ac1e625bd66576": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Je suis un assistant chez  Celtis Bénin"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68ca9b9162ac1e625bd6820f": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Le statut de votre commande est : "
+                        },
+                        {
+                          "text": "{statut}"
+                        },
+                        {
+                          "text": " "
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68ca5ca662ac1e625bd66801": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Donnez moi votre numéro de commande svp."
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68ca613c62ac1e625bd66939": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Le statut de commande est en cours de vérification "
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68caab5f2e910ad067372041": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Souhaitez vous donnez un avis?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68cb43812e910ad067376a67": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": " C'est genial, pourrez-vous nous dire le nom du produit et votre  avis à son  propos."
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "text": "Je pourrai vous proposer un message pour votre avis!"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68cb4f152e910ad067376b25": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Ce commentaire vous vas?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68cb4f5c2e910ad067376b3c": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Donnez nous votre nom svp?"
+                        }
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68cb4fd62e910ad067376b4b": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Je suis desolé , je réessaierai prochainement"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        },
+        "68cb52662e910ad067376ba3": {
+          "variants": {
+            "default:en-us": [
+              {
+                "data": {
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Avez-vous d'autres questions?"
+                        }
+                      ]
+                    }
+                  ],
+                  "delay": null
+                },
+                "condition": null
+              }
+            ]
+          }
+        }
+      },
+      "integrationTools": {},
+      "mcpIntegrationTools": {}
+    },
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "Support client",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "68ca4f0c62ac1e625bd664d3",
+            "name": "Suivi de commande",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Je veux suivre ma commande",
+                "slots": []
+              },
+              {
+                "text": "Pouvez-vous me donner des précisions sur ma commande?",
+                "slots": []
+              },
+              {
+                "text": "Comment faire pour suivre ma commande sur votre site?",
+                "slots": []
+              },
+              {
+                "text": "Où est-ce que je peux suivre ma commande?",
+                "slots": []
+              },
+              {
+                "text": "Puis-je obtenir des mises à jour sur ma commande?",
+                "slots": []
+              },
+              {
+                "text": "Je veux savoir quand ma commande arrivera",
+                "slots": []
+              },
+              {
+                "text": "Comment suivre ma commande avec mon numéro de suivi?",
+                "slots": []
+              },
+              {
+                "text": "Où puis-je trouver des détails sur ma commande en cours?",
+                "slots": []
+              },
+              {
+                "text": "Est-ce que ma commande a été expédiée?",
+                "slots": []
+              },
+              {
+                "text": "Je veux connaître le suivi de ma commande",
+                "slots": []
+              },
+              {
+                "text": "Pouvez-vous m'aider à suivre ma commande?",
+                "slots": []
+              },
+              {
+                "text": "Comment suivre ma commande sur votre site?",
+                "slots": []
+              },
+              {
+                "text": "Où puis-je suivre ma commande?",
+                "slots": []
+              },
+              {
+                "text": "Je veux vérifier l'état de ma commande",
+                "slots": []
+              },
+              {
+                "text": "Avez-vous un moyen de suivre ma commande?",
+                "slots": []
+              },
+              {
+                "text": "Pouvez-vous me donner des informations sur ma commande?",
+                "slots": []
+              },
+              {
+                "text": "Je voudrais savoir où en est ma commande",
+                "slots": []
+              },
+              {
+                "text": "Est-ce possible de suivre ma commande en ligne?",
+                "slots": []
+              },
+              {
+                "text": "Je souhaite connaître l'avancement de ma commande s'il vous plaît",
+                "slots": []
+              },
+              {
+                "text": "Quand est-ce que ma commande sera livrée?",
+                "slots": []
+              },
+              {
+                "text": "Comment puis-je vérifier l'état de ma commande?",
+                "slots": []
+              }
+            ],
+            "noteID": "0e1m80vp7",
+            "description": "Pour suivre les commandes"
+          },
+          {
+            "key": "68ca4f8362ac1e625bd66511",
+            "name": "Donner un avis",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Donner mon avis sur une commande",
+                "slots": []
+              },
+              {
+                "text": "Laisser mes remarques",
+                "slots": []
+              },
+              {
+                "text": "Partager mon témoignage",
+                "slots": []
+              },
+              {
+                "text": "Émettre mon point de vue",
+                "slots": []
+              },
+              {
+                "text": "Exprimer mes impressions",
+                "slots": []
+              },
+              {
+                "text": "Rapporter mon expérience",
+                "slots": []
+              },
+              {
+                "text": "Fournir mes impressions",
+                "slots": []
+              },
+              {
+                "text": "Donner mon sentiment",
+                "slots": []
+              },
+              {
+                "text": "Publier mon évaluation",
+                "slots": []
+              },
+              {
+                "text": "Donner mon retour d'expérience",
+                "slots": []
+              },
+              {
+                "text": "Exposer mon avis personnel",
+                "slots": []
+              },
+              {
+                "text": "Énoncer mon jugement",
+                "slots": []
+              },
+              {
+                "text": "Dévoiler mon ressenti",
+                "slots": []
+              },
+              {
+                "text": "Livrer mes impressions",
+                "slots": []
+              },
+              {
+                "text": "Émettre une appréciation",
+                "slots": []
+              },
+              {
+                "text": "Dire ce que je pense",
+                "slots": []
+              },
+              {
+                "text": "Fournir mes commentaires",
+                "slots": []
+              },
+              {
+                "text": "Partager mon point de vue",
+                "slots": []
+              },
+              {
+                "text": "Exprimer ce que je pense",
+                "slots": []
+              },
+              {
+                "text": "Faire part de mon opinion",
+                "slots": []
+              },
+              {
+                "text": "Donner mon avis sur un produit",
+                "slots": []
+              }
+            ],
+            "noteID": "0e1m90vtf",
+            "description": "Donner des avis sur une commande"
+          },
+          {
+            "key": "None",
+            "name": "None",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "noteID": null
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "nonDraftResponsesMap": {},
+        "responseMessagesByDiscriminatorIDMap": {},
+        "responseDiscriminatorsByResponseIDMap": {},
+        "agentMcpIntegrationToolsByAgentIDMap": {},
+        "functionDefinitions": {},
+        "referencedResponseIDs": [
+          "68ca50a362ac1e625bd66576",
+          "68ca4eb362ac1e625bd664be",
+          "68ca5ca662ac1e625bd66801",
+          "68ca613c62ac1e625bd66939",
+          "68ca9b9162ac1e625bd6820f",
+          "68caab5f2e910ad067372041",
+          "68cb43812e910ad067376a67",
+          "68cb4f152e910ad067376b25",
+          "68cb4f5c2e910ad067376b3c",
+          "68cb4fd62e910ad067376b4b",
+          "68cb52662e910ad067376ba3"
+        ],
+        "referencedAgentsIDs": [
+          "68ca502362ac1e625bd66559",
+          "68cb48a82e910ad067376ad6"
+        ],
+        "referencedAPIToolIDs": [],
+        "referencedIntegrationToolIDs": [],
+        "slotsMap": {},
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "projectType": "chat",
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [
+          "68ca4f0c62ac1e625bd664d3",
+          "68ca4f8362ac1e625bd66511"
+        ],
+        "goToIntentsSet": [],
+        "entitiesMap": {},
+        "variableMap": {},
+        "intentsMap": {},
+        "requiredEntitiesMap": {},
+        "eventsMap": {},
+        "cmsVariables": {
+          "sessions": {
+            "isSystem": true,
+            "description": "The number of times a particular user has opened the app.",
+            "defaultValue": null
+          },
+          "user_id": {
+            "isSystem": true,
+            "description": "The user's unique ID.",
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+            "defaultValue": null
+          },
+          "locale": {
+            "isSystem": true,
+            "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+            "defaultValue": null
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": true,
+            "description": "The agent's last response (text/speak) in a string.",
+            "defaultValue": null
+          },
+          "last_event": {
+            "isSystem": true,
+            "description": "The object containing the last event that the user client has triggered.",
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "description": "The user's last utterance in a text string.",
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+            "defaultValue": null
+          },
+          "email": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "The users email address.",
+            "defaultValue": null
+          },
+          "first_name": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "The users first name.",
+            "defaultValue": null
+          },
+          "stock": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "The users favourite stock.",
+            "defaultValue": null
+          },
+          "statut": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "",
+            "defaultValue": null
+          },
+          "nom": {
+            "isArray": false,
+            "isSystem": false,
+            "datatype": "any",
+            "description": "Nombre du client",
+            "defaultValue": null
+          }
+        },
+        "cmsEntities": {}
+      },
+      "settings": {},
+      "platform": "webchat"
+    },
+    "settings": {
+      "voice": {
+        "tts": {
+          "provider": "elevenlabs",
+          "model": "eleven_turbo_v2_5",
+          "voice": "TX3LPaxmHKxFdv7VOQHJ",
+          "useCustomVoice": false,
+          "settings": {
+            "speed": 1.2
+          }
+        },
+        "failureMessage": "We’re sorry, but the call cannot be completed at this time. Please try again later.",
+        "hasCallRecording": true
+      },
+      "widget": {
+        "type": "chat",
+        "chat": {
+          "voiceInput": true,
+          "voiceOutput": true,
+          "renderMode": "widget",
+          "headerImage": {
+            "enabled": true
+          },
+          "agentImage": {
+            "enabled": false
+          },
+          "banner": {
+            "title": "Demo agent",
+            "description": "Learn the Voiceflow basics",
+            "enabled": true
+          },
+          "placeholderText": "Message...",
+          "disclaimer": {
+            "enabled": false,
+            "title": "Privacy notice",
+            "description": "Before we can proceed with your conversation, we kindly ask you to review and accept our privacy policy, outlining how we handle and protect your personal information throughout our services.",
+            "primaryButtonText": "Submit",
+            "secondaryButtonText": "Privacy policy",
+            "secondaryButtonURL": ""
+          },
+          "aiDisclaimer": {
+            "text": "Generated by AI, double-check for accuracy.",
+            "enabled": false
+          },
+          "handoffToAgentImageURL": ""
+        },
+        "voice": {
+          "renderMode": "expand",
+          "content": {
+            "talkingText": "Talk to interrupt",
+            "endButtonText": "End",
+            "listeningText": "Listening...",
+            "startButtonText": "Start a call",
+            "callToActionText": "How can I help you?"
+          }
+        },
+        "common": {
+          "sideSpacing": "20",
+          "bottomSpacing": "20",
+          "position": "right",
+          "fontFamily": "UCity Pro",
+          "primaryColor": {
+            "color": "#397DFF",
+            "palette": {
+              "50": "#E7F5FD",
+              "100": "#C6E4FB",
+              "200": "#A2D2FA",
+              "300": "#87BFFB",
+              "400": "#659FFD",
+              "500": "#397DFF",
+              "600": "#2F68DB",
+              "700": "#264EB4",
+              "800": "#1C368E",
+              "900": "#0F1E61"
+            }
+          },
+          "poweredBy": true,
+          "launcher": {
+            "type": "both",
+            "text": "Test your agent"
+          },
+          "footerLink": {
+            "enabled": true
+          },
+          "persistence": "localStorage"
+        },
+        "security": {
+          "approvedDomains": {
+            "enabled": false,
+            "domains": ""
+          },
+          "disableTranscript": false
+        }
+      },
+      "memory": {
+        "turns": 100
+      },
+      "llmFallback": {
+        "models": {
+          "open-ai": {
+            "*": {
+              "provider": "anthropic",
+              "model": "claude-4-sonnet"
+            }
+          },
+          "anthropic": {
+            "*": {
+              "provider": "open-ai",
+              "model": "gpt-4.1-2025-04-14"
+            }
+          },
+          "groq": {
+            "*": {
+              "provider": "anthropic",
+              "model": "claude-4-sonnet"
+            }
+          },
+          "google": {
+            "*": {
+              "provider": "anthropic",
+              "model": "claude-4-sonnet"
+            }
+          }
+        }
+      },
+      "globalNoReply": {
+        "delay": null,
+        "enabled": false,
+        "type": "static",
+        "prompt": [
+          {
+            "text": [
+              "Are you still there?"
+            ]
+          }
+        ]
+      },
+      "globalNoMatch": {
+        "type": "static",
+        "prompt": [
+          {
+            "text": [
+              "Sorry, I didn’t get that. Please try again."
+            ]
+          }
+        ]
+      },
+      "intentClassification": {
+        "type": "rag",
+        "params": {
+          "model": "claude-3.5-haiku",
+          "temperature": 0.1
+        },
+        "promptWrapper": null
+      }
+    },
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "64dbb6696a8fab0013dba194"
+      }
+    ],
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory",
+      "email",
+      "first_name",
+      "stock",
+      "statut",
+      "nom"
+    ],
+    "_id": "68ca4e4362ac1e625bd6648a",
+    "updatedAt": "2025-09-18T13:56:40.574Z",
+    "publishedAt": "2024-09-27T16:54:27.996Z",
+    "domains": [
+      {
+        "id": "cla06iyr900b206pkh8d4ap8n",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64dbb6696a8fab0013dba194"
+        ],
+        "rootDiagramID": "64dbb6696a8fab0013dba194",
+        "updatedBy": 1786625,
+        "updatedAt": "2025-09-17T05:59:31.732Z"
+      }
+    ],
+    "projectID": "68ca4e4362ac1e625bd66489",
+    "rootDiagramID": "64dbb6696a8fab0013dba194",
+    "templateDiagramID": "64dbb6696a8fab0013dba195"
+  },
+  "diagrams": {
+    "64dbb6696a8fab0013dba195": {
+      "name": "Template Diagram",
+      "type": "TEMPLATE",
+      "zoom": 100,
+      "nodes": {},
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1701833501,
+      "creatorID": 1786625,
+      "variables": [],
+      "menuItems": [],
+      "_id": "68ca4e4362ac1e625bd6648c",
+      "diagramID": "64dbb6696a8fab0013dba195",
+      "versionID": "68ca4e4362ac1e625bd6648a"
+    },
+    "64dbb6696a8fab0013dba194": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 10,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "68ca4e7bb297ec048e17bb91",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -598.68,
+                          183.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          -370.76,
+                          183.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          -370.76,
+                          108.82
+                        ]
+                      },
+                      {
+                        "point": [
+                          -142.83,
+                          108.82
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            -663.0122520609053,
+            161.79894233461266
+          ]
+        },
+        "68ca4e7bb297ec048e17bb91": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68ca4e7bb297ec048e17bb92"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68ca50a362ac1e625bd66576"
+          },
+          "nodeID": "68ca4e7bb297ec048e17bb91"
+        },
+        "68ca4e7bb297ec048e17bb93": {
+          "type": "block",
+          "data": {
+            "name": "Bienvenu",
+            "steps": [
+              "68ca4e7bb297ec048e17bb91",
+              "68ca4e9cb297ec048e17bb9c"
+            ],
+            "color": "#d58495",
+            "triggers": []
+          },
+          "nodeID": "68ca4e7bb297ec048e17bb93",
+          "coords": [
+            23.34931163364317,
+            29.998827846684435
+          ]
+        },
+        "68ca4e9cb297ec048e17bb9c": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68ca4ed9b297ec048e17bba4",
+                  "id": "68ca4e9cb297ec048e17bb9d",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          189.53,
+                          192.16
+                        ]
+                      },
+                      {
+                        "point": [
+                          247.81,
+                          192.16
+                        ]
+                      },
+                      {
+                        "point": [
+                          247.81,
+                          111.01
+                        ]
+                      },
+                      {
+                        "point": [
+                          306.1,
+                          111.01
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68ca4eb362ac1e625bd664be"
+          },
+          "nodeID": "68ca4e9cb297ec048e17bb9c"
+        },
+        "68ca4ed9b297ec048e17bba4": {
+          "type": "choice-v2",
+          "data": {
+            "name": "Choice",
+            "items": [
+              {
+                "id": "cmfnkr3cx00bv358441jk5onu",
+                "intentID": "68ca4f0c62ac1e625bd664d3",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              },
+              {
+                "id": "cmfnyt13m039k358431glgpz0",
+                "intentID": "68ca4f8362ac1e625bd66511",
+                "rules": [],
+                "button": null,
+                "automaticReprompt": null
+              }
+            ],
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "cmfnkr3cx00bv358441jk5onu": {
+                  "id": "68ca4edbb297ec048e17bbab",
+                  "target": "68ca507fb297ec048e17bbdc",
+                  "type": "",
+                  "data": {}
+                },
+                "else": {
+                  "id": "68ca4f8bb297ec048e17bbb3",
+                  "target": "68ca4f9eb297ec048e17bbb5",
+                  "type": "else",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          638.46,
+                          219.49
+                        ]
+                      },
+                      {
+                        "point": [
+                          747.05,
+                          219.49
+                        ]
+                      },
+                      {
+                        "point": [
+                          747.05,
+                          63.97
+                        ]
+                      },
+                      {
+                        "point": [
+                          855.63,
+                          63.97
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "cmfnyt13m039k358431glgpz0": {
+                  "id": "68caab10b297ec048e17bc28",
+                  "target": "68cb55b4045a9c653b168955",
+                  "type": "",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "noMatch": {
+              "repromptID": null,
+              "path": true,
+              "pathLabel": "Aucune des réponses"
+            }
+          },
+          "nodeID": "68ca4ed9b297ec048e17bba4",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68ca4ed9b297ec048e17bba5": {
+          "type": "block",
+          "data": {
+            "name": "Choix à effectuer (Intentions)",
+            "steps": [
+              "68ca4ed9b297ec048e17bba4"
+            ],
+            "color": "#d58495",
+            "triggers": []
+          },
+          "nodeID": "68ca4ed9b297ec048e17bba5",
+          "coords": [
+            472.2776556884415,
+            32.19315342170901
+          ]
+        },
+        "68ca4f9eb297ec048e17bbb5": {
+          "type": "agent",
+          "data": {
+            "name": "Untitled agent",
+            "agentID": "68ca502362ac1e625bd66559",
+            "listenForOtherTriggers": false,
+            "exitEveryConversationalTurn": false,
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68ca4f9eb297ec048e17bbb5",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68ca4f9eb297ec048e17bbb6": {
+          "type": "block",
+          "data": {
+            "name": "Réponse de l'IA",
+            "steps": [
+              "68ca4f9eb297ec048e17bbb5"
+            ],
+            "color": "#5b9fd7",
+            "triggers": []
+          },
+          "nodeID": "68ca4f9eb297ec048e17bbb6",
+          "coords": [
+            1021.8129110998566,
+            -14.84684200915163
+          ]
+        },
+        "68ca506bb297ec048e17bbd5": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmfnkztyj00lc35841qbn43fw",
+                "type": "intent",
+                "resourceID": "68ca4f0c62ac1e625bd664d3",
+                "settings": {
+                  "local": false
+                }
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68ca5c93b297ec048e17bbe1",
+                  "id": "68ca506bb297ec048e17bbd6",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -523.29,
+                          -62.96
+                        ]
+                      },
+                      {
+                        "point": [
+                          -329.67,
+                          -62.96
+                        ]
+                      },
+                      {
+                        "point": [
+                          -329.67,
+                          -177.81
+                        ]
+                      },
+                      {
+                        "point": [
+                          -136.05,
+                          -177.81
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68ca506bb297ec048e17bbd5"
+        },
+        "68ca506bb297ec048e17bbd7": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "68ca506bb297ec048e17bbd5"
+            ]
+          },
+          "nodeID": "68ca506bb297ec048e17bbd7",
+          "coords": [
+            -639.5603706745485,
+            -84.96051220257755
+          ]
+        },
+        "68ca507fb297ec048e17bbdb": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "68ca4f0c62ac1e625bd664d3",
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68ca507fb297ec048e17bbdb"
+        },
+        "68ca507fb297ec048e17bbdc": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "68ca507fb297ec048e17bbdb"
+            ]
+          },
+          "nodeID": "68ca507fb297ec048e17bbdc",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68ca5c93b297ec048e17bbe1": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68ca5c93b297ec048e17bbe2"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68ca5ca662ac1e625bd66801"
+          },
+          "nodeID": "68ca5c93b297ec048e17bbe1"
+        },
+        "68ca6128b297ec048e17bbf2": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68ca6128b297ec048e17bbf3"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68ca613c62ac1e625bd66939"
+          },
+          "nodeID": "68ca6128b297ec048e17bbf2"
+        },
+        "68ca6128b297ec048e17bbf4": {
+          "type": "block",
+          "data": {
+            "name": "Intégration à Airtable",
+            "steps": [
+              "68ca6128b297ec048e17bbf2",
+              "68ca6172b297ec048e17bbfb"
+            ],
+            "color": "#6ea78b",
+            "triggers": []
+          },
+          "nodeID": "68ca6128b297ec048e17bbf4",
+          "coords": [
+            461.6320791879568,
+            -288.31614096896976
+          ]
+        },
+        "68ca6172b297ec048e17bbfb": {
+          "type": "api-v2",
+          "data": {
+            "name": "",
+            "url": [
+              {
+                "text": [
+                  "https://api.airtable.com/v0/appod3evdBmXOQo1g/Table%201 "
+                ]
+              }
+            ],
+            "headers": [
+              {
+                "id": "cmfnus1il01ug3584dknjtkb6",
+                "key": "Authorization",
+                "value": [
+                  {
+                    "text": [
+                      "Bearer patLBv2oPUdKiSO81.016ed4926ec1d21c4eb215a56a659f8c64a438e38706e4bde98e5b3f7b3d141d"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "httpMethod": "get",
+            "queryParameters": [
+              {
+                "id": "cmfnv3rdc020d3584qgachc3w",
+                "key": "Numéro de commandes",
+                "value": [
+                  {
+                    "text": [
+                      "",
+                      {
+                        "variableID": "last_utterance"
+                      },
+                      ""
+                    ]
+                  }
+                ]
+              }
+            ],
+            "responseMappings": [
+              {
+                "id": "cmfnv4rtv020p3584shjac4vs",
+                "path": "response.records[0].fields.Status",
+                "variableID": "68ca930e62ac1e625bd67f4c"
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68ca9b92b297ec048e17bc14",
+                  "id": "68ca6172b297ec048e17bbfc",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          627.81,
+                          -117.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          677.28,
+                          -117.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          677.28,
+                          -223.23
+                        ]
+                      },
+                      {
+                        "point": [
+                          726.74,
+                          -223.23
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "68ca6172b297ec048e17bbfd"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68ca6172b297ec048e17bbfb"
+        },
+        "68ca8c1eb297ec048e17bc02": {
+          "type": "capture-v3",
+          "data": {
+            "name": "Capture",
+            "capture": {
+              "type": "user-reply",
+              "variableID": "last_utterance"
+            },
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68ca6128b297ec048e17bbf4",
+                  "id": "68ca8c1eb297ec048e17bc03",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          196.32,
+                          -94.87
+                        ]
+                      },
+                      {
+                        "point": [
+                          246.48,
+                          -94.87
+                        ]
+                      },
+                      {
+                        "point": [
+                          246.48,
+                          -261.32
+                        ]
+                      },
+                      {
+                        "point": [
+                          296.63,
+                          -261.32
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68ca8c1eb297ec048e17bc02"
+        },
+        "68ca9b92b297ec048e17bc12": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "68ca9b9162ac1e625bd6820f",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68ca9b92b297ec048e17bc13"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68ca9b92b297ec048e17bc12"
+        },
+        "68ca9b92b297ec048e17bc14": {
+          "type": "block",
+          "data": {
+            "name": "Statut de votre commande",
+            "steps": [
+              "68ca9b92b297ec048e17bc12"
+            ],
+            "color": ""
+          },
+          "nodeID": "68ca9b92b297ec048e17bc14",
+          "coords": [
+            891.7365930130918,
+            -250.22555968193572
+          ]
+        },
+        "68caab57b297ec048e17bc30": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68caab57b297ec048e17bc31"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68caab5f2e910ad067372041"
+          },
+          "nodeID": "68caab57b297ec048e17bc30"
+        },
+        "68caab57b297ec048e17bc32": {
+          "type": "block",
+          "data": {
+            "name": "Donner un avis",
+            "steps": [
+              "68caab57b297ec048e17bc30",
+              "68cb426e045a9c653b1687fc"
+            ],
+            "color": "#5b9fd7",
+            "triggers": []
+          },
+          "nodeID": "68caab57b297ec048e17bc32",
+          "coords": [
+            25.90935458758281,
+            302.4684165612533
+          ]
+        },
+        "68cb426e045a9c653b1687fc": {
+          "type": "buttons-v2",
+          "data": {
+            "name": "Buttons",
+            "items": [
+              {
+                "id": "cmfolwbfv00d63581br8uokn2",
+                "label": [
+                  {
+                    "text": [
+                      "Oui bien sûr "
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmfolyl3200f63581s5v5u38s",
+                "label": [
+                  {
+                    "text": [
+                      "Non, la prochaine fois"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmfolwbfv00d63581br8uokn2": {
+                  "id": "68cb4291045a9c653b1687ff",
+                  "target": "68cb4372045a9c653b168805",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          192.09,
+                          441.52
+                        ]
+                      },
+                      {
+                        "point": [
+                          216.44,
+                          441.52
+                        ]
+                      },
+                      {
+                        "point": [
+                          216.44,
+                          397.17
+                        ]
+                      },
+                      {
+                        "point": [
+                          240.78,
+                          397.17
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "cmfolyl3200f63581s5v5u38s": {
+                  "id": "68cb42fa045a9c653b168803",
+                  "target": null,
+                  "type": ""
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb426e045a9c653b1687fc"
+        },
+        "68cb4372045a9c653b168805": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68cb4372045a9c653b168806"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68cb43812e910ad067376a67"
+          },
+          "nodeID": "68cb4372045a9c653b168805"
+        },
+        "68cb4372045a9c653b168807": {
+          "type": "block",
+          "data": {
+            "name": "Avis améliorer par l'IA",
+            "steps": [
+              "68cb4372045a9c653b168805",
+              "68cb4634045a9c653b168814"
+            ],
+            "color": "",
+            "triggers": []
+          },
+          "nodeID": "68cb4372045a9c653b168807",
+          "coords": [
+            406.96625336836064,
+            318.35284599521435
+          ]
+        },
+        "68cb4634045a9c653b168814": {
+          "type": "capture-v3",
+          "data": {
+            "name": "Capture",
+            "capture": {
+              "type": "user-reply",
+              "variableID": "last_utterance"
+            },
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68cb5e13045a9c653b168a13",
+                  "id": "68cb4634045a9c653b168815",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          573.15,
+                          590.46
+                        ]
+                      },
+                      {
+                        "point": [
+                          623.59,
+                          590.46
+                        ]
+                      },
+                      {
+                        "point": [
+                          623.59,
+                          420.11
+                        ]
+                      },
+                      {
+                        "point": [
+                          674.03,
+                          420.11
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb4634045a9c653b168814"
+        },
+        "68cb4f14045a9c653b168883": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "68cb4f152e910ad067376b25",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68cb4f14045a9c653b168884"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb4f14045a9c653b168883"
+        },
+        "68cb4f14045a9c653b168885": {
+          "type": "block",
+          "data": {
+            "name": "Impression du client par rapport à l'avis ",
+            "steps": [
+              "68cb4f14045a9c653b168883",
+              "68cb4f2d045a9c653b16888c"
+            ],
+            "color": "#6da880",
+            "triggers": []
+          },
+          "nodeID": "68cb4f14045a9c653b168885",
+          "coords": [
+            998.7585944990338,
+            866.6597342296077
+          ]
+        },
+        "68cb4f2d045a9c653b16888c": {
+          "type": "buttons-v2",
+          "data": {
+            "name": "Buttons",
+            "items": [
+              {
+                "id": "cmfontjxe01v33581l8zx357h",
+                "label": [
+                  {
+                    "text": [
+                      "Oui"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmfontmqu01vm3581hknukjjo",
+                "label": [
+                  {
+                    "text": [
+                      "Non, pas vraiment"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmfontjxe01v33581l8zx357h": {
+                  "id": "68cb4f2f045a9c653b16888f",
+                  "target": "68cb5d43045a9c653b168a0d",
+                  "type": "",
+                  "data": {}
+                },
+                "cmfontmqu01vm3581hknukjjo": {
+                  "id": "68cb4f33045a9c653b168891",
+                  "target": "68cb4fd6045a9c653b1688a5",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1164.94,
+                          1059.96
+                        ]
+                      },
+                      {
+                        "point": [
+                          1188.94,
+                          1059.96
+                        ]
+                      },
+                      {
+                        "point": [
+                          1188.94,
+                          852.69
+                        ]
+                      },
+                      {
+                        "point": [
+                          1105.97,
+                          852.69
+                        ]
+                      },
+                      {
+                        "point": [
+                          1105.97,
+                          645.42
+                        ]
+                      },
+                      {
+                        "point": [
+                          1129.97,
+                          645.42
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb4f2d045a9c653b16888c",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68cb4f4c045a9c653b168893": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68cb4f4c045a9c653b168894"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68cb4f5c2e910ad067376b3c"
+          },
+          "nodeID": "68cb4f4c045a9c653b168893"
+        },
+        "68cb4f4c045a9c653b168895": {
+          "type": "block",
+          "data": {
+            "name": "Saisir du nom du client",
+            "steps": [
+              "68cb4f4c045a9c653b168893",
+              "68cb4f7b045a9c653b16889f"
+            ],
+            "color": "#CB627B",
+            "triggers": []
+          },
+          "nodeID": "68cb4f4c045a9c653b168895",
+          "coords": [
+            1292.6963886048616,
+            353.65646466319635
+          ]
+        },
+        "68cb4f7b045a9c653b16889f": {
+          "type": "capture-v3",
+          "data": {
+            "name": "Capture",
+            "capture": {
+              "type": "user-reply",
+              "variableID": "68cb4f9e2e910ad067376b45"
+            },
+            "listenForOtherTriggers": false,
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68cb5ff4045a9c653b168a1a",
+                  "id": "68cb4f7b045a9c653b1688a0",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1458.88,
+                          499.85
+                        ]
+                      },
+                      {
+                        "point": [
+                          1504.94,
+                          499.85
+                        ]
+                      },
+                      {
+                        "point": [
+                          1504.94,
+                          447.8
+                        ]
+                      },
+                      {
+                        "point": [
+                          1550.99,
+                          447.8
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb4f7b045a9c653b16889f",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68cb4fd6045a9c653b1688a5": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "messageID": "68cb4fd62e910ad067376b4b",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68cb4fd6045a9c653b1688a6"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb4fd6045a9c653b1688a5",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68cb4fd6045a9c653b1688a7": {
+          "type": "block",
+          "data": {
+            "name": "Continuer votre avis sur notre site",
+            "steps": [
+              "68cb4fd6045a9c653b1688a5",
+              "68cb5476045a9c653b168944"
+            ],
+            "color": "",
+            "triggers": []
+          },
+          "nodeID": "68cb4fd6045a9c653b1688a7",
+          "coords": [
+            1296.156495599746,
+            566.600676037046
+          ]
+        },
+        "68cb5263045a9c653b1688e1": {
+          "type": "message",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68cb5263045a9c653b1688e2",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "messageID": "68cb52662e910ad067376ba3"
+          },
+          "nodeID": "68cb5263045a9c653b1688e1"
+        },
+        "68cb5263045a9c653b1688e3": {
+          "type": "block",
+          "data": {
+            "name": "Session finale",
+            "steps": [
+              "68cb5263045a9c653b1688e1",
+              "68cb533e045a9c653b16890e"
+            ],
+            "color": "#dc8879",
+            "triggers": []
+          },
+          "nodeID": "68cb5263045a9c653b1688e3",
+          "coords": [
+            1953.1534105627718,
+            669.3434587863964
+          ]
+        },
+        "68cb533e045a9c653b16890e": {
+          "type": "buttons-v2",
+          "data": {
+            "name": "Buttons",
+            "items": [
+              {
+                "id": "cmfoofv9102i83581de48uxfv",
+                "label": [
+                  {
+                    "text": [
+                      "Oui"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmfoofy6d02is3581qryhqvej",
+                "label": [
+                  {
+                    "text": [
+                      "Non"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmfoofv9102i83581de48uxfv": {
+                  "id": "68cb5340045a9c653b168911",
+                  "target": "68cb5358045a9c653b168916",
+                  "type": "",
+                  "data": {}
+                },
+                "cmfoofy6d02is3581qryhqvej": {
+                  "id": "68cb5344045a9c653b168913",
+                  "target": "68cb536c045a9c653b16891c",
+                  "type": "",
+                  "data": {}
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb533e045a9c653b16890e"
+        },
+        "68cb5358045a9c653b168915": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "68ca4ed9b297ec048e17bba5",
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb5358045a9c653b168915"
+        },
+        "68cb5358045a9c653b168916": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "68cb5358045a9c653b168915"
+            ]
+          },
+          "nodeID": "68cb5358045a9c653b168916",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68cb536c045a9c653b16891b": {
+          "type": "exit",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb536c045a9c653b16891b"
+        },
+        "68cb536c045a9c653b16891c": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "68cb536c045a9c653b16891b"
+            ]
+          },
+          "nodeID": "68cb536c045a9c653b16891c",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68cb5391045a9c653b168922": {
+          "type": "buttons-v2",
+          "data": {
+            "name": "Buttons",
+            "items": [
+              {
+                "id": "cmfoohp2v02lu35819i9j4x3b",
+                "label": [
+                  {
+                    "text": [
+                      "Donnez un avis sur notre site"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmfooias202mx3581awl71ykx",
+                "label": [
+                  {
+                    "text": [
+                      "Appelez le service client"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmfoohp2v02lu35819i9j4x3b": {
+                  "type": "",
+                  "target": "68cb53da045a9c653b168933",
+                  "id": "68cb5395045a9c653b168925"
+                },
+                "cmfooias202mx3581awl71ykx": {
+                  "type": "",
+                  "target": null,
+                  "id": "68cb53b1045a9c653b168927",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1819.84,
+                          810.54
+                        ]
+                      },
+                      {
+                        "point": [
+                          1885.98,
+                          810.54
+                        ]
+                      },
+                      {
+                        "point": [
+                          1885.98,
+                          844.93
+                        ]
+                      },
+                      {
+                        "point": [
+                          1952.13,
+                          844.93
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb5391045a9c653b168922"
+        },
+        "68cb53da045a9c653b168932": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "https://celtiis.bj/",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68cb53da045a9c653b168934"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb53da045a9c653b168932"
+        },
+        "68cb53da045a9c653b168933": {
+          "type": "actions",
+          "data": {
+            "name": "Actions",
+            "steps": [
+              "68cb53da045a9c653b168932"
+            ]
+          },
+          "nodeID": "68cb53da045a9c653b168933",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68cb5476045a9c653b168944": {
+          "type": "buttons-v2",
+          "data": {
+            "name": "Buttons",
+            "items": [
+              {
+                "id": "cmfooml9w02tn3581b1t6xjo1",
+                "label": [
+                  {
+                    "text": [
+                      "Laissez un avis sur notre site"
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "cmfooo45802vf358171iey29c",
+                "label": [
+                  {
+                    "text": [
+                      "Continuons la conversation"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "listenForOtherTriggers": true,
+            "portsV2": {
+              "byKey": {
+                "cmfooml9w02tn3581b1t6xjo1": {
+                  "id": "68cb547a045a9c653b168947",
+                  "target": "68cb548f045a9c653b16894a",
+                  "type": "",
+                  "data": {}
+                },
+                "cmfooo45802vf358171iey29c": {
+                  "id": "68cb54c1045a9c653b168951",
+                  "target": "68cb5263045a9c653b1688e1",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1462.34,
+                          790.54
+                        ]
+                      },
+                      {
+                        "point": [
+                          1624.66,
+                          790.54
+                        ]
+                      },
+                      {
+                        "point": [
+                          1624.66,
+                          748.16
+                        ]
+                      },
+                      {
+                        "point": [
+                          1786.97,
+                          748.16
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb5476045a9c653b168944"
+        },
+        "68cb548f045a9c653b168949": {
+          "type": "url",
+          "data": {
+            "name": "",
+            "url": "https://celtiis.bj/",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68cb548f045a9c653b16894b"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb548f045a9c653b168949"
+        },
+        "68cb548f045a9c653b16894a": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "68cb548f045a9c653b168949"
+            ]
+          },
+          "nodeID": "68cb548f045a9c653b16894a",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68cb55b4045a9c653b168954": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "68ca4f8362ac1e625bd66511",
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb55b4045a9c653b168954"
+        },
+        "68cb55b4045a9c653b168955": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "68cb55b4045a9c653b168954"
+            ]
+          },
+          "nodeID": "68cb55b4045a9c653b168955",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68cb569a045a9c653b168962": {
+          "type": "trigger",
+          "data": {
+            "name": "",
+            "items": [
+              {
+                "id": "cmfoozaku036v3581u61ai4zs",
+                "type": "intent",
+                "resourceID": "68ca4f8362ac1e625bd66511",
+                "settings": {
+                  "local": false
+                }
+              }
+            ],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": "68caab57b297ec048e17bc32",
+                  "id": "68cb569a045a9c653b168963",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          -543.18,
+                          471.98
+                        ]
+                      },
+                      {
+                        "point": [
+                          -341.13,
+                          471.98
+                        ]
+                      },
+                      {
+                        "point": [
+                          -341.13,
+                          329.47
+                        ]
+                      },
+                      {
+                        "point": [
+                          -139.09,
+                          329.47
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb569a045a9c653b168962"
+        },
+        "68cb569a045a9c653b168964": {
+          "type": "block",
+          "data": {
+            "name": "",
+            "steps": [
+              "68cb569a045a9c653b168962"
+            ]
+          },
+          "nodeID": "68cb569a045a9c653b168964",
+          "coords": [
+            -642.4230164587532,
+            449.9803406337237
+          ]
+        },
+        "68cb5d43045a9c653b168a0c": {
+          "type": "goToNode",
+          "data": {
+            "name": "",
+            "nodeID": "68cb4f4c045a9c653b168895",
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb5d43045a9c653b168a0c"
+        },
+        "68cb5d43045a9c653b168a0d": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "68cb5d43045a9c653b168a0c"
+            ]
+          },
+          "nodeID": "68cb5d43045a9c653b168a0d",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68cb5e13045a9c653b168a13": {
+          "type": "agent",
+          "data": {
+            "name": "Gnerateur d'avis",
+            "agentID": "68cb48a82e910ad067376ad6",
+            "listenForOtherTriggers": false,
+            "exitEveryConversationalTurn": false,
+            "portsV2": {
+              "byKey": {
+                "68cbf1cc2e910ad067379114": {
+                  "id": "68cbf1cdfa166219767b425f",
+                  "target": "68cb4f14045a9c653b168885",
+                  "type": "",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1006.39,
+                          535.49
+                        ]
+                      },
+                      {
+                        "point": [
+                          1030.39,
+                          535.49
+                        ]
+                      },
+                      {
+                        "point": [
+                          1030.39,
+                          701.07
+                        ]
+                      },
+                      {
+                        "point": [
+                          998.76,
+                          701.07
+                        ]
+                      },
+                      {
+                        "point": [
+                          998.76,
+                          866.66
+                        ],
+                        "toTop": true,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "68cb5e13045a9c653b168a13",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "68cb5e13045a9c653b168a14": {
+          "type": "block",
+          "data": {
+            "name": "Générateur d'avis",
+            "steps": [
+              "68cb5e13045a9c653b168a13"
+            ],
+            "color": "",
+            "triggers": []
+          },
+          "nodeID": "68cb5e13045a9c653b168a14",
+          "coords": [
+            840.2074128120516,
+            341.29155873400333
+          ]
+        },
+        "68cb5ff4045a9c653b168a1a": {
+          "type": "api-v2",
+          "data": {
+            "name": "",
+            "url": [
+              {
+                "text": [
+                  "https://hook.eu2.make.com/0fhppqajny62o606colypj0bpr7sbei4"
+                ]
+              }
+            ],
+            "headers": [],
+            "httpMethod": "post",
+            "queryParameters": [],
+            "responseMappings": [],
+            "portsV2": {
+              "byKey": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "68cb5ff4045a9c653b168a1b"
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": null,
+                  "id": "68cb5ff4045a9c653b168a1c"
+                }
+              },
+              "builtIn": {},
+              "dynamic": []
+            },
+            "body": {
+              "type": "form-data",
+              "formData": [
+                {
+                  "id": "cmfoqhvwi04ir3581xnu7u9ym",
+                  "key": "Nom",
+                  "value": [
+                    {
+                      "text": [
+                        "",
+                        {
+                          "variableID": "68cb4f9e2e910ad067376b45"
+                        },
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "nodeID": "68cb5ff4045a9c653b168a1a"
+        },
+        "68cb5ff4045a9c653b168a1d": {
+          "type": "block",
+          "data": {
+            "name": "Appel à Make pour stocker les informations dans google sheet",
+            "steps": [
+              "68cb5ff4045a9c653b168a1a"
+            ],
+            "color": "",
+            "triggers": []
+          },
+          "nodeID": "68cb5ff4045a9c653b168a1d",
+          "coords": [
+            1717.174238220299,
+            368.9802953088986
+          ]
+        },
+        "68cc05542d046f2f1468df3e": {
+          "type": "block",
+          "data": {
+            "name": "Récupérer le numéro de commande",
+            "steps": [
+              "68ca5c93b297ec048e17bbe1",
+              "68ca8c1eb297ec048e17bc02"
+            ],
+            "color": ""
+          },
+          "nodeID": "68cc05542d046f2f1468df3e",
+          "coords": [
+            30.136402509535905,
+            -256.62880517770094
+          ]
+        }
+      },
+      "offsetX": 398.9402776418925,
+      "offsetY": 215.12307617475025,
+      "modified": 1701833501,
+      "creatorID": 1786625,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "68ca4e4362ac1e625bd6648d",
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "versionID": "68ca4e4362ac1e625bd6648a"
+    }
+  },
+  "flows": [],
+  "entities": [],
+  "entityVariants": [],
+  "intents": [
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 1786625,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664d3",
+      "name": "Suivi de commande",
+      "createdByID": 1786625,
+      "folderID": null,
+      "description": "Pour suivre les commandes",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-09-17T06:02:53.000Z",
+      "updatedAt": "2025-09-17T06:02:53.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66511",
+      "name": "Donner un avis",
+      "createdByID": 1786625,
+      "folderID": null,
+      "description": "Donner des avis sur une commande",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2025-09-17T06:04:51.000Z",
+      "updatedAt": "2025-09-17T06:04:51.000Z",
+      "updatedByID": 1786625
+    }
+  ],
+  "utterances": [
+    {
+      "id": "68ca4f0c62ac1e625bd664d4",
+      "text": [
+        {
+          "text": [
+            "Je veux suivre ma commande"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664d5",
+      "text": [
+        {
+          "text": [
+            "Pouvez-vous me donner des précisions sur ma commande?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664d6",
+      "text": [
+        {
+          "text": [
+            "Comment faire pour suivre ma commande sur votre site?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664d7",
+      "text": [
+        {
+          "text": [
+            "Où est-ce que je peux suivre ma commande?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664d8",
+      "text": [
+        {
+          "text": [
+            "Puis-je obtenir des mises à jour sur ma commande?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664d9",
+      "text": [
+        {
+          "text": [
+            "Je veux savoir quand ma commande arrivera"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664da",
+      "text": [
+        {
+          "text": [
+            "Comment suivre ma commande avec mon numéro de suivi?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664db",
+      "text": [
+        {
+          "text": [
+            "Où puis-je trouver des détails sur ma commande en cours?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664dc",
+      "text": [
+        {
+          "text": [
+            "Est-ce que ma commande a été expédiée?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664dd",
+      "text": [
+        {
+          "text": [
+            "Je veux connaître le suivi de ma commande"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664de",
+      "text": [
+        {
+          "text": [
+            "Pouvez-vous m'aider à suivre ma commande?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664df",
+      "text": [
+        {
+          "text": [
+            "Comment suivre ma commande sur votre site?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664e0",
+      "text": [
+        {
+          "text": [
+            "Où puis-je suivre ma commande?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664e1",
+      "text": [
+        {
+          "text": [
+            "Je veux vérifier l'état de ma commande"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664e2",
+      "text": [
+        {
+          "text": [
+            "Avez-vous un moyen de suivre ma commande?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664e3",
+      "text": [
+        {
+          "text": [
+            "Pouvez-vous me donner des informations sur ma commande?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664e4",
+      "text": [
+        {
+          "text": [
+            "Je voudrais savoir où en est ma commande"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664e5",
+      "text": [
+        {
+          "text": [
+            "Est-ce possible de suivre ma commande en ligne?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664e6",
+      "text": [
+        {
+          "text": [
+            "Je souhaite connaître l'avancement de ma commande s'il vous plaît"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664e7",
+      "text": [
+        {
+          "text": [
+            "Quand est-ce que ma commande sera livrée?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f0c62ac1e625bd664e8",
+      "text": [
+        {
+          "text": [
+            "Comment puis-je vérifier l'état de ma commande?"
+          ]
+        }
+      ],
+      "intentID": "68ca4f0c62ac1e625bd664d3",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:02:53.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66512",
+      "text": [
+        {
+          "text": [
+            "Donner mon avis sur une commande"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66513",
+      "text": [
+        {
+          "text": [
+            "Laisser mes remarques"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66514",
+      "text": [
+        {
+          "text": [
+            "Partager mon témoignage"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66515",
+      "text": [
+        {
+          "text": [
+            "Émettre mon point de vue"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66516",
+      "text": [
+        {
+          "text": [
+            "Exprimer mes impressions"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66517",
+      "text": [
+        {
+          "text": [
+            "Rapporter mon expérience"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66518",
+      "text": [
+        {
+          "text": [
+            "Fournir mes impressions"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66519",
+      "text": [
+        {
+          "text": [
+            "Donner mon sentiment"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd6651a",
+      "text": [
+        {
+          "text": [
+            "Publier mon évaluation"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd6651b",
+      "text": [
+        {
+          "text": [
+            "Donner mon retour d'expérience"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd6651c",
+      "text": [
+        {
+          "text": [
+            "Exposer mon avis personnel"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd6651d",
+      "text": [
+        {
+          "text": [
+            "Énoncer mon jugement"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd6651e",
+      "text": [
+        {
+          "text": [
+            "Dévoiler mon ressenti"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd6651f",
+      "text": [
+        {
+          "text": [
+            "Livrer mes impressions"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66520",
+      "text": [
+        {
+          "text": [
+            "Émettre une appréciation"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66521",
+      "text": [
+        {
+          "text": [
+            "Dire ce que je pense"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66522",
+      "text": [
+        {
+          "text": [
+            "Fournir mes commentaires"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66523",
+      "text": [
+        {
+          "text": [
+            "Partager mon point de vue"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66524",
+      "text": [
+        {
+          "text": [
+            "Exprimer ce que je pense"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66525",
+      "text": [
+        {
+          "text": [
+            "Faire part de mon opinion"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    },
+    {
+      "id": "68ca4f8362ac1e625bd66526",
+      "text": [
+        {
+          "text": [
+            "Donner mon avis sur un produit"
+          ]
+        }
+      ],
+      "intentID": "68ca4f8362ac1e625bd66511",
+      "language": "en-us",
+      "createdAt": "2025-09-17T06:04:51.000Z"
+    }
+  ],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [
+    {
+      "id": "68ca4eb362ac1e625bd664be",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-17T06:01:24.000Z",
+      "updatedAt": "2025-09-17T06:01:40.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68ca4e7f62ac1e625bd664a1",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-17T06:00:32.000Z",
+      "updatedAt": "2025-09-17T06:00:51.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68ca50a362ac1e625bd66576",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-17T06:09:39.000Z",
+      "updatedAt": "2025-09-17T06:09:59.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68ca9b9162ac1e625bd6820f",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-17T11:29:22.000Z",
+      "updatedAt": "2025-09-17T11:29:56.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68ca5ca662ac1e625bd66801",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-17T07:00:55.000Z",
+      "updatedAt": "2025-09-17T07:01:30.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68ca613c62ac1e625bd66939",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-17T07:20:29.000Z",
+      "updatedAt": "2025-09-17T07:21:17.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68caab5f2e910ad067372041",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-17T12:36:47.000Z",
+      "updatedAt": "2025-09-17T12:37:08.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68cb43812e910ad067376a67",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-17T23:25:54.000Z",
+      "updatedAt": "2025-09-17T23:27:54.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68cb4f152e910ad067376b25",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-18T00:15:17.000Z",
+      "updatedAt": "2025-09-18T00:15:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68cb4f5c2e910ad067376b3c",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-18T00:16:29.000Z",
+      "updatedAt": "2025-09-18T00:16:47.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68cb4fd62e910ad067376b4b",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-18T00:18:31.000Z",
+      "updatedAt": "2025-09-18T00:18:59.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68cb50c12e910ad067376b5d",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-18T00:22:26.000Z",
+      "updatedAt": "2025-09-18T00:22:42.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68cb52662e910ad067376ba3",
+      "name": "",
+      "createdByID": 1786625,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2025-09-18T00:29:26.000Z",
+      "updatedAt": "2025-09-18T00:29:46.000Z",
+      "updatedByID": 1786625
+    }
+  ],
+  "responseMessages": [
+    {
+      "id": "68cb44982e910ad067376a75",
+      "discriminatorID": "68cb43812e910ad067376a68",
+      "text": [
+        {
+          "text": [
+            ""
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-17T23:30:32.000Z"
+    },
+    {
+      "id": "68cb4f152e910ad067376b27",
+      "discriminatorID": "68cb4f152e910ad067376b26",
+      "text": [
+        {
+          "text": [
+            "Ce commentaire vous vas?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-18T00:15:17.000Z"
+    },
+    {
+      "id": "68cb4f5c2e910ad067376b3e",
+      "discriminatorID": "68cb4f5c2e910ad067376b3d",
+      "text": [
+        {
+          "text": [
+            "Donnez nous votre nom svp?"
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-18T00:16:29.000Z"
+    },
+    {
+      "id": "68cb4fd62e910ad067376b4d",
+      "discriminatorID": "68cb4fd62e910ad067376b4c",
+      "text": [
+        {
+          "text": [
+            "Je suis desolé , je réessaierai prochainement."
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-18T00:18:31.000Z"
+    },
+    {
+      "id": "68cb52662e910ad067376ba5",
+      "discriminatorID": "68cb52662e910ad067376ba4",
+      "text": [
+        {
+          "text": [
+            "Avez-vous d'autres questions?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-18T00:29:26.000Z"
+    },
+    {
+      "id": "68ca4e7f62ac1e625bd664a3",
+      "discriminatorID": "68ca4e7f62ac1e625bd664a2",
+      "text": [
+        {
+          "text": [
+            "Je suis un assistant chez  Celtis Bénin"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-17T06:00:32.000Z"
+    },
+    {
+      "id": "68ca50a362ac1e625bd66578",
+      "discriminatorID": "68ca50a362ac1e625bd66577",
+      "text": [
+        {
+          "text": [
+            "Je suis un assistant chez  Celtis Bénin"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-17T06:09:39.000Z"
+    },
+    {
+      "id": "68ca4eb362ac1e625bd664c0",
+      "discriminatorID": "68ca4eb362ac1e625bd664bf",
+      "text": [
+        {
+          "text": [
+            "En quoi pourrais-je vous aider aujourd'hui ?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-17T06:01:24.000Z"
+    },
+    {
+      "id": "68ca5ca662ac1e625bd66803",
+      "discriminatorID": "68ca5ca662ac1e625bd66802",
+      "text": [
+        {
+          "text": [
+            "Donnez moi votre numéro de commande svp."
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-17T07:00:55.000Z"
+    },
+    {
+      "id": "68ca613c62ac1e625bd6693b",
+      "discriminatorID": "68ca613c62ac1e625bd6693a",
+      "text": [
+        {
+          "text": [
+            "Le statut de commande est en cours de vérification "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-17T07:20:29.000Z"
+    },
+    {
+      "id": "68ca9b9162ac1e625bd68211",
+      "discriminatorID": "68ca9b9162ac1e625bd68210",
+      "text": [
+        {
+          "text": [
+            "Le statut de votre commande est : ",
+            {
+              "variableID": "68ca930e62ac1e625bd67f4c"
+            },
+            " "
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-17T11:29:22.000Z"
+    },
+    {
+      "id": "68caab5f2e910ad067372043",
+      "discriminatorID": "68caab5f2e910ad067372042",
+      "text": [
+        {
+          "text": [
+            "Souhaitez vous donnez un avis?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-17T12:36:47.000Z"
+    },
+    {
+      "id": "68cb43812e910ad067376a69",
+      "discriminatorID": "68cb43812e910ad067376a68",
+      "text": [
+        {
+          "text": [
+            " C'est genial, pourrez-vous nous dire le nom du produit et votre  avis à son  propos."
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "Je pourrai vous proposer un message pour votre avis!"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-17T23:25:54.000Z"
+    },
+    {
+      "id": "68cb50c12e910ad067376b5f",
+      "discriminatorID": "68cb50c12e910ad067376b5e",
+      "text": [
+        {
+          "text": [
+            "Donnez votre votre avis sur notre page web"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2025-09-18T00:22:26.000Z"
+    }
+  ],
+  "responseDiscriminators": [
+    {
+      "id": "68cb43812e910ad067376a68",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68cb43812e910ad067376a67",
+      "variantOrder": [
+        "68cb43812e910ad067376a69",
+        "68cb44982e910ad067376a75"
+      ],
+      "createdAt": "2025-09-17T23:25:54.000Z"
+    },
+    {
+      "id": "68cb4f152e910ad067376b26",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68cb4f152e910ad067376b25",
+      "variantOrder": [
+        "68cb4f152e910ad067376b27"
+      ],
+      "createdAt": "2025-09-18T00:15:17.000Z"
+    },
+    {
+      "id": "68cb4f5c2e910ad067376b3d",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68cb4f5c2e910ad067376b3c",
+      "variantOrder": [
+        "68cb4f5c2e910ad067376b3e"
+      ],
+      "createdAt": "2025-09-18T00:16:29.000Z"
+    },
+    {
+      "id": "68cb4fd62e910ad067376b4c",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68cb4fd62e910ad067376b4b",
+      "variantOrder": [
+        "68cb4fd62e910ad067376b4d"
+      ],
+      "createdAt": "2025-09-18T00:18:31.000Z"
+    },
+    {
+      "id": "68cb50c12e910ad067376b5e",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68cb50c12e910ad067376b5d",
+      "variantOrder": [
+        "68cb50c12e910ad067376b5f"
+      ],
+      "createdAt": "2025-09-18T00:22:26.000Z"
+    },
+    {
+      "id": "68cb52662e910ad067376ba4",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68cb52662e910ad067376ba3",
+      "variantOrder": [
+        "68cb52662e910ad067376ba5"
+      ],
+      "createdAt": "2025-09-18T00:29:26.000Z"
+    },
+    {
+      "id": "68ca4eb362ac1e625bd664bf",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68ca4eb362ac1e625bd664be",
+      "variantOrder": [
+        "68ca4eb362ac1e625bd664c0"
+      ],
+      "createdAt": "2025-09-17T06:01:24.000Z"
+    },
+    {
+      "id": "68ca4e7f62ac1e625bd664a2",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68ca4e7f62ac1e625bd664a1",
+      "variantOrder": [
+        "68ca4e7f62ac1e625bd664a3"
+      ],
+      "createdAt": "2025-09-17T06:00:32.000Z"
+    },
+    {
+      "id": "68ca50a362ac1e625bd66577",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68ca50a362ac1e625bd66576",
+      "variantOrder": [
+        "68ca50a362ac1e625bd66578"
+      ],
+      "createdAt": "2025-09-17T06:09:39.000Z"
+    },
+    {
+      "id": "68ca5ca662ac1e625bd66802",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68ca5ca662ac1e625bd66801",
+      "variantOrder": [
+        "68ca5ca662ac1e625bd66803"
+      ],
+      "createdAt": "2025-09-17T07:00:55.000Z"
+    },
+    {
+      "id": "68ca613c62ac1e625bd6693a",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68ca613c62ac1e625bd66939",
+      "variantOrder": [
+        "68ca613c62ac1e625bd6693b"
+      ],
+      "createdAt": "2025-09-17T07:20:29.000Z"
+    },
+    {
+      "id": "68ca9b9162ac1e625bd68210",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68ca9b9162ac1e625bd6820f",
+      "variantOrder": [
+        "68ca9b9162ac1e625bd68211"
+      ],
+      "createdAt": "2025-09-17T11:29:22.000Z"
+    },
+    {
+      "id": "68caab5f2e910ad067372042",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "68caab5f2e910ad067372041",
+      "variantOrder": [
+        "68caab5f2e910ad067372043"
+      ],
+      "createdAt": "2025-09-17T12:36:47.000Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The locale of the user (eg. en-US, en-CA, it-IT, fr-FR, ...).",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "689a1200826bc6ed79cf90d6",
+      "name": "email",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#56B365",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "The users email address.",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "689a11f1826bc6ed79cf90d3",
+      "name": "first_name",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#5B9FD7",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "The users first name.",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "689a71b9826bc6ed79cfbb6d",
+      "name": "stock",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "The users favourite stock.",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68ca930e62ac1e625bd67f4c",
+      "name": "statut",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2025-09-17T10:53:03.000Z",
+      "updatedAt": "2025-09-17T10:53:03.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68cb4f9e2e910ad067376b45",
+      "name": "nom",
+      "createdByID": 1786625,
+      "folderID": null,
+      "color": "#5B9FD7",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "Nombre du client",
+      "defaultValue": null,
+      "createdAt": "2025-09-18T00:17:34.000Z",
+      "updatedAt": "2025-09-18T00:17:34.000Z",
+      "updatedByID": 1786625
+    }
+  ],
+  "workflows": [
+    {
+      "id": "66df755be937eb000784abb2",
+      "name": "Start workflow",
+      "createdByID": 1786625,
+      "folderID": null,
+      "status": null,
+      "isStart": true,
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "assigneeID": null,
+      "description": "",
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-18T14:07:51.000Z",
+      "updatedByID": 1786625
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "prompts": [],
+  "promptMessages": [],
+  "events": [],
+  "agents": [
+    {
+      "id": "67db2b56cbe88befffef4623",
+      "name": "Welcome agent",
+      "createdByID": 1786625,
+      "folderID": null,
+      "settings": {},
+      "description": "",
+      "instructions": [
+        {
+          "text": [
+            "You are Connor, a demonstration agent that helps users understand how to use the Voiceflow platform. You're job is to use the exit conditons to show that users can navigate to other agents based on their intention."
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "Start with \"Hi, I'm Connor. An AI agent that will demonstrate some key concepts in Voiceflow. In this step I'll demo how you can use exit conditions to navigate the conversation based on the users intention. Do you want to see how?\""
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "After the response, use buttons to display the users options \"Yes, do it\" or \"No thanks\"."
+          ]
+        }
+      ],
+      "pathToolOrder": [
+        "689a1336826bc6ed79cf91b6",
+        "689a133d826bc6ed79cf91bb"
+      ],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "description": "Triggered the knowledge base when you don't know the answer to a question."
+      },
+      "buttonTool": {
+        "enabled": true,
+        "description": "Displays a UI picker when the user needs to select one option from a predefined list (up to 5 options)."
+      },
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "689a149f826bc6ed79cf924d",
+      "name": "Capture user info agent",
+      "createdByID": 1786625,
+      "folderID": null,
+      "settings": {
+        "model": "claude-4-sonnet",
+        "maxTokens": 500,
+        "temperature": 0.3
+      },
+      "description": "",
+      "instructions": [
+        {
+          "text": [
+            "In this agent you'll demonstrate how to capture info from the user. "
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "Start with \"In this step, I'll show you how you can capture the users name and email, so It can be used dynamically throughout the conversation. Could you please provide me with your first name?\""
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "When the user provides their name and email, say something like \"Perfect! I can see you've provided both your first name, '[first name]' and your email, '[email]'.\nThe criteria to trigger the exit condition have been met - and both name and email have been saved to Voiceflow variables that can be used dynamically later in the conversation.\" Then use the exit condition."
+          ]
+        }
+      ],
+      "pathToolOrder": [
+        "689a14b0826bc6ed79cf9259"
+      ],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+      },
+      "buttonTool": {
+        "enabled": false,
+        "description": "Displays a UI picker when the user needs to select one option from a predefined list (up to 5 options)."
+      },
+      "cardTool": {
+        "enabled": false,
+        "description": "Summarizes the assistant's response in a visual card with a title, image, description, and optional action buttons."
+      },
+      "carouselTool": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "689a5ea3826bc6ed79cfb60c",
+      "name": "Get stock price agent",
+      "createdByID": 1786625,
+      "folderID": null,
+      "settings": {},
+      "description": "",
+      "instructions": [
+        {
+          "text": [
+            "In this agent you'll demonstrate how to use tools."
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "Start with \"Next, I'll demonstrate how agents can use tools. I've been given a tool that can look up stock prices for companies, what company do you want to lookup?\""
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "Use buttons to show stocks like Apple, Microsoft, Nvidia, Tesla, Google.\n"
+          ]
+        },
+        {
+          "text": [
+            "Only tell the user the current stock price, no further information is required for this demo."
+          ]
+        }
+      ],
+      "pathToolOrder": [
+        "689a6ac5826bc6ed79cfb8ee"
+      ],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+      },
+      "buttonTool": {
+        "enabled": true,
+        "description": "Displays a UI picker when the user needs to select one option from a predefined list (up to 5 options)."
+      },
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "689aac8c826bc6ed79cfc873",
+      "name": "Not interested agent",
+      "createdByID": 1786625,
+      "folderID": null,
+      "settings": {},
+      "description": "",
+      "instructions": [
+        {
+          "text": [
+            "Start with \"No worries — ironically, I ended up demoing the capabilities anyway. Let me know when you’re ready to dive deeper.\""
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "text": [
+            "If the conversation is chat, use buttons to display their options \"I'm ready\" or \"No thanks\"."
+          ]
+        }
+      ],
+      "pathToolOrder": [
+        "689aacd1826bc6ed79cfc881",
+        "689aace6826bc6ed79cfc88c"
+      ],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+      },
+      "buttonTool": {
+        "enabled": true,
+        "description": "Displays a UI picker when the user needs to select one option from a predefined list (up to 5 options)."
+      },
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68ca4f9f62ac1e625bd6654d",
+      "name": "Autres questions",
+      "createdByID": 1786625,
+      "folderID": null,
+      "settings": {
+        "model": "gpt-4-turbo",
+        "maxTokens": 4096,
+        "temperature": 0.3,
+        "reasoningEffort": null
+      },
+      "description": "",
+      "instructions": null,
+      "pathToolOrder": [],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "query": [
+          {
+            "text": [
+              "Réponds à la question du client"
+            ]
+          },
+          {
+            "text": [
+              "",
+              {
+                "variableID": "last_utterance"
+              },
+              " "
+            ]
+          }
+        ],
+        "enabled": true,
+        "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+      },
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-09-17T06:05:20.000Z",
+      "updatedAt": "2025-09-18T13:50:40.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68ca502362ac1e625bd66559",
+      "name": "Réponses à d'autres questions",
+      "createdByID": 1786625,
+      "folderID": null,
+      "settings": {
+        "model": "gpt-4-turbo",
+        "maxTokens": 2560,
+        "temperature": 0.3,
+        "reasoningEffort": null
+      },
+      "description": "",
+      "instructions": [
+        {
+          "text": [
+            "Réponds à la quesion du client"
+          ]
+        },
+        {
+          "text": [
+            "",
+            {
+              "variableID": "last_utterance"
+            },
+            " "
+          ]
+        }
+      ],
+      "pathToolOrder": [],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+      },
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-09-17T06:07:32.000Z",
+      "updatedAt": "2025-09-18T13:51:18.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68cb46672e910ad067376a88",
+      "name": "Autres questions",
+      "createdByID": 1786625,
+      "folderID": null,
+      "settings": {},
+      "description": "",
+      "instructions": null,
+      "pathToolOrder": [],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": false,
+        "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+      },
+      "buttonTool": null,
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-09-17T23:38:15.000Z",
+      "updatedAt": "2025-09-18T13:48:04.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68cb48a82e910ad067376ad6",
+      "name": "Gnerateur d'avis",
+      "createdByID": 1786625,
+      "folderID": null,
+      "settings": {
+        "model": "gpt-4-turbo",
+        "maxTokens": 4096,
+        "temperature": 0.3,
+        "reasoningEffort": null
+      },
+      "description": "",
+      "instructions": [
+        {
+          "text": [
+            "Les informations suivantes concernes les avis d'un client sur nos services. Essaie de reformuler son "
+          ]
+        },
+        {
+          "text": [
+            "avis de manière pertinente en 2 ou  3 phrases. Voici ces informations:",
+            {
+              "variableID": "last_utterance"
+            },
+            ""
+          ]
+        },
+        {
+          "text": [
+            "Afiiche ton résultat et passer au block suivant spt."
+          ]
+        }
+      ],
+      "pathToolOrder": [
+        "68cbf1cc2e910ad067379114"
+      ],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": false,
+        "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+      },
+      "buttonTool": {
+        "enabled": false,
+        "description": "Displays a UI picker when the user needs to select one option from a predefined list (up to 5 options)."
+      },
+      "cardTool": {
+        "enabled": false,
+        "description": "Summarizes the assistant's response in a visual card with a title, image, description, and optional action buttons."
+      },
+      "carouselTool": {
+        "enabled": false,
+        "description": "Displays a carousel of up to 10 cards, each containing a title, description, image, and optional action buttons."
+      },
+      "createdAt": "2025-09-17T23:47:52.000Z",
+      "updatedAt": "2025-09-18T13:56:24.000Z",
+      "updatedByID": 1786625
+    },
+    {
+      "id": "68cb5a2e2e910ad067376c9a",
+      "name": "Autres questions",
+      "createdByID": 1786625,
+      "folderID": null,
+      "settings": {},
+      "description": "",
+      "instructions": null,
+      "pathToolOrder": [],
+      "webSearchTool": null,
+      "knowledgeBaseTool": {
+        "enabled": true,
+        "description": "Searches an external knowledge base to retrieve relevant information, supplementing or replacing the language model's internal context."
+      },
+      "buttonTool": {
+        "enabled": true,
+        "description": "Displays a UI picker when the user needs to select one option from a predefined list (up to 5 options)."
+      },
+      "cardTool": null,
+      "carouselTool": null,
+      "createdAt": "2025-09-18T01:02:38.000Z",
+      "updatedAt": "2025-09-18T13:50:12.000Z",
+      "updatedByID": 1786625
+    }
+  ],
+  "agentAPITools": [
+    {
+      "id": "689a5f3b826bc6ed79cfb622",
+      "agentID": "689a5ea3826bc6ed79cfb60c",
+      "apiToolID": "689a5eb295497fdb03c1e3d7",
+      "description": null,
+      "inputVariables": {},
+      "captureResponse": {
+        "689a765e4b6609b2bb09f401": {
+          "path": "data.0.symbol",
+          "variableOrEntityID": "689a71b9826bc6ed79cfbb6d"
+        }
+      },
+      "captureInputVariables": null,
+      "createdAt": "2025-09-17T05:59:32.000Z"
+    }
+  ],
+  "agentPathTools": [
+    {
+      "id": "689a1336826bc6ed79cf91b6",
+      "name": "Yes",
+      "agentID": "67db2b56cbe88befffef4623",
+      "description": "Exit when the user says yes.",
+      "variableOrder": [],
+      "createdAt": "2025-09-17T05:59:32.000Z"
+    },
+    {
+      "id": "689a133d826bc6ed79cf91bb",
+      "name": "No",
+      "agentID": "67db2b56cbe88befffef4623",
+      "description": "Exit when the user says no.",
+      "variableOrder": [],
+      "createdAt": "2025-09-17T05:59:32.000Z"
+    },
+    {
+      "id": "689a14b0826bc6ed79cf9259",
+      "name": "Captured name & email",
+      "agentID": "689a149f826bc6ed79cf924d",
+      "description": "Exit after the user has provided their name and email.",
+      "variableOrder": [
+        "689a7b0a826bc6ed79cfbdd4",
+        "689a7b0d826bc6ed79cfbdd5"
+      ],
+      "createdAt": "2025-09-17T05:59:32.000Z"
+    },
+    {
+      "id": "689a6ac5826bc6ed79cfb8ee",
+      "name": "Stock price provided",
+      "agentID": "689a5ea3826bc6ed79cfb60c",
+      "description": "Exit when the agent has delivered the stock price of the users favourite stock.",
+      "variableOrder": [],
+      "createdAt": "2025-09-17T05:59:32.000Z"
+    },
+    {
+      "id": "689aacd1826bc6ed79cfc881",
+      "name": "User changed their mind",
+      "agentID": "689aac8c826bc6ed79cfc873",
+      "description": "Exit if the user changes their mind and is ready to learn more about this demo.",
+      "variableOrder": [],
+      "createdAt": "2025-09-17T05:59:32.000Z"
+    },
+    {
+      "id": "689aace6826bc6ed79cfc88c",
+      "name": "End",
+      "agentID": "689aac8c826bc6ed79cfc873",
+      "description": "Exit when the user confirms they're not interested in learning about this demo.",
+      "variableOrder": [],
+      "createdAt": "2025-09-17T05:59:32.000Z"
+    },
+    {
+      "id": "68cbf1cc2e910ad067379114",
+      "name": "continue",
+      "agentID": "68cb48a82e910ad067376ad6",
+      "description": "Quitte ce block après ta réponse",
+      "variableOrder": [],
+      "createdAt": "2025-09-18T11:49:33.000Z"
+    }
+  ],
+  "agentFunctionTools": [],
+  "agentIntegrationTools": [],
+  "agentPathToolVariables": [
+    {
+      "id": "689a7b0a826bc6ed79cfbdd4",
+      "kind": "variable",
+      "entityID": null,
+      "variableID": "689a11f1826bc6ed79cf90d3",
+      "description": null,
+      "agentPathToolID": "689a14b0826bc6ed79cf9259",
+      "createdAt": "2025-09-17T05:59:32.000Z"
+    },
+    {
+      "id": "689a7b0d826bc6ed79cfbdd5",
+      "kind": "variable",
+      "entityID": null,
+      "variableID": "689a1200826bc6ed79cf90d6",
+      "description": null,
+      "agentPathToolID": "689a14b0826bc6ed79cf9259",
+      "createdAt": "2025-09-17T05:59:32.000Z"
+    }
+  ],
+  "agentMcpIntegrationTools": [],
+  "apiTools": [
+    {
+      "id": "689a5eb295497fdb03c1e3d7",
+      "name": "Get stock price",
+      "createdByID": 1786625,
+      "folderID": null,
+      "url": [
+        {
+          "text": [
+            "https://api.marketstack.com/v1/intraday/latest"
+          ]
+        }
+      ],
+      "body": null,
+      "image": null,
+      "headers": [],
+      "httpMethod": "get",
+      "description": "Get the current stock price of the company.",
+      "queryParameters": [
+        {
+          "id": "cmdgbvv2100433b7wnc2p4zfp",
+          "key": "symbols",
+          "value": [
+            {
+              "text": [
+                "",
+                {
+                  "variableID": "689a5eb295497fdb03c1e3d8"
+                },
+                " "
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cmdgbvsv300403b7wc7mp1js2",
+          "key": "access_key",
+          "value": [
+            {
+              "text": [
+                "2ccfb06e213c6967a743cfcf19d87d03"
+              ]
+            }
+          ]
+        }
+      ],
+      "createdAt": "2025-09-17T05:59:32.000Z",
+      "updatedAt": "2025-09-17T05:59:32.000Z",
+      "updatedByID": 1786625
+    }
+  ],
+  "apiToolInputVariables": [
+    {
+      "id": "689a5eb295497fdb03c1e3d8",
+      "name": "symbol",
+      "apiToolID": "689a5eb295497fdb03c1e3d7",
+      "description": "The symbol of the stock.",
+      "createdAt": "2025-09-17T05:59:31.696Z"
+    }
+  ],
+  "integrationTools": [],
+  "functions": [],
+  "functionPaths": [],
+  "functionVariables": [],
+  "mcpServers": [],
+  "mcpServerTools": [],
+  "mcpIntegrationTools": [],
+  "project": {
+    "type": "chat",
+    "name": "Support client",
+    "image": "",
+    "teamID": "eOn27Mo7EK",
+    "members": [],
+    "privacy": "private",
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 1786625,
+    "updatedBy": 1786625,
+    "apiPrivacy": "public",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "_id": "68ca4e4362ac1e625bd66489",
+    "updatedAt": "2025-09-18T14:05:42.481Z",
+    "devVersion": "68ca4e4362ac1e625bd6648a",
+    "liveVersion": "68ca4e4362ac1e625bd6648b"
+  },
+  "_version": "1.2",
+  "secrets": [],
+  "variableStates": [],
+  "transcriptEvaluations": [
+    {
+      "name": "Satisfaction score",
+      "default": true,
+      "description": null,
+      "type": "number",
+      "enabled": false,
+      "prompt": "Rate the user's overall satisfaction based on the conversation, using a scale from 1 to 5.",
+      "settings": null,
+      "minimumValue": 1,
+      "minimumPrompt": "Look for negative comments or expressions of dissatisfaction to rate the minimum satisfaction.",
+      "maximumValue": 5,
+      "maximumPrompt": "Identify any comments or phrases in the transcript that express the highest level of satisfaction."
+    },
+    {
+      "name": "AI summary",
+      "default": true,
+      "description": null,
+      "type": "string",
+      "enabled": false,
+      "prompt": "Look at the transcript and provide a brief summary of the conversation. Make sure to highlight the outcome of the conversation, and key moments or topics, and the overall tone of the customer.",
+      "settings": null
+    },
+    {
+      "name": "Deflection rate",
+      "default": true,
+      "description": null,
+      "type": "boolean",
+      "enabled": false,
+      "prompt": "Determine if the user requested to talk to a human in order to achieve their desired outcome.",
+      "settings": null,
+      "truePrompt": "The user did not require the need to talk to a human.",
+      "falsePrompt": "The user required the need to talk to a human agent."
+    }
+  ]
+}
